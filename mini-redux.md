@@ -44,5 +44,5 @@ store.subscribe(() => {
 })
 store.dispatch({ type: 'ADD_TODO', text: 'do homework', id: 0 })
 store.dispatch({ type: 'TOGGLE_TODO', id: 0 })
-console.log(store.getState())
+console.log(store.getState()) // [ { text: 'do homework', completed: true, id: 0 } ]
 ```
