@@ -14,7 +14,7 @@ There are 7 possible return values from `typeof` operator, same count as js buil
 
 ### The falsy value of javascript
 except type `object` and `symbol`, here is all the falsy value of the rest 5 js built-in types
-``` javascript 
+``` yaml
 "" (string)
 0, -0, NaN (number)
 null (null)
